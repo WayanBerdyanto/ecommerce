@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HALAMAN LOGIN</title>
+    <!-- fONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- My Sytle -->
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER LOGIN -->
+      <div class="hello">
+        <h1>Hello</h1>
+        <h1><span>Good Night</span></h1>
+      </div>
+      <img src="img/logo-login.png" alt="logo-login" class="logo-login" />
+      <!-- GROUP LOGIN -->
+      <form action="">
+        <div class="group-login">
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input
+              type="text"
+              name="usename"
+              id="usename"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <i data-feather="key"></i>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+        </div>
+        <div class="remember-group">
+          <div class="forgot-password">
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="checkbox">Remember me</label>
+          </div>
+          <span><a href="#">Forgot Password</a></span>
+        </div>
+        <div class="btn-group">
+          <div>
+            <button type="submit" class="btn">Sign In</button>
+          </div>
+          <div class="or">
+            <a href="#">Or Sign In With</a>
+          </div>
+          <div>
+            <i data-feather="instagram"></i>
+            <button class="btn-other" type="submit">Google</button>
+          </div>
+          <div>
+            <i data-feather="facebook"></i>
+            <button class="btn-other" type="submit">Facebook</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

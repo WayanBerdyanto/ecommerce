@@ -1,0 +1,97 @@
+:root{
+    --btn : #30475E;
+    --font : #000000;
+    --bg : #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg);
+    color: var(--font);
+}
+/* HEADER LOGIN */
+.container{
+    width: 25rem;
+    margin: 0.5rem auto;
+}
+.hello{
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+.logo-login{
+    width: 14rem;
+    display: flex;
+    margin: -2rem auto;
+}
+/* BAGIAN TENGAH */
+.group-login{
+    margin-top: -3rem;
+    width: 100%;
+}
+form .group-login .input-group{
+    padding: -2rem 1rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.733);
+}
+form .group-login .input-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.733);
+    margin-bottom: 0.5rem;
+}
+form .group-login .input-group input{
+    width: 100%;
+    margin: 0rem 1rem;
+    padding: 0.4rem;
+    font-size: 1rem;
+}
+form .remember-group{
+    display: flex;
+    justify-content: space-between;
+}
+/* GROUP OTHER BTN */
+form .btn-group div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0px;
+    border: none;
+    background-color: var(--btn);
+    color: #fff;
+    padding: 0.2rem;
+}
+form .btn-group .or{
+    background: none;
+}
+form .btn-group .or a{
+    font-size: 0.8rem;
+}
+form .btn-group button{
+    background-color: var(--btn);
+    color: var(--bg);
+    width: 100%;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+/* MEDIA QUERIES */
+/* LAPTOP */
+@media(max-width : 1336px){
+    html{
+        font-weight: 80%;
+    }
+}
+@media (max-width: 768px){
+    html {
+        font-size: 62.5%;
+      }
+}
